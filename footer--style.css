@@ -1,0 +1,51 @@
+footer {
+    background-color: #333333;
+    color: white;
+    box-sizing: border-box;
+}
+
+.footer--completo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7%;
+}
+
+.footer--completo img{
+    width: 35%;
+}
+
+.informacao{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem ;
+    font-family: 'Ropa Sans', sans-serif;
+    width: 300%;
+}
+
+.informacao p{
+    padding: 2%;
+    font-size: 2rem;
+}
+
+.social--medias{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+    font-size: 2rem;
+    
+}
+
+.img--sociaL{
+    padding: 5%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img--sociaL img{
+    width: 20%;
+}
+
